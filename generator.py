@@ -25,7 +25,7 @@ fix_lines = defaultdict(int, {
     'Phone bill': -50,
     'Electricity bill': -100,
     'Water bill': -75,
-    'Salary - Gaselec': 2500,
+    'Salary': 2500,
     'Priv LLC': 400
 })
 
@@ -37,7 +37,7 @@ for _ in range(rows_number):
     # Generate a random amount between -1000 and -10, with 2 digits. You can change the values.
     amount = round(random.uniform(-1000, -10),2)
     # Generate a random label. You can add as many as you want
-    labels = ['Acme Corp', 'Foo Inc', 'Bar LLC', 'Baz Inc', 'Quux Co']
+    labels = ['Food Delicious', 'Expensive Gas', 'Fancy Restaurant', 'Jolly Jumpers', 'Holy Cow']
     label = random.choice(labels)
 
     data.append((date, 'Debit', amount, label))
