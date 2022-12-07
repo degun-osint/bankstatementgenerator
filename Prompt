@@ -1,0 +1,25 @@
+Hello,
+I want a Python script who will generate a csv please.
+
+These variables :
+- startDate = start date for the data
+- endDate = end date for the data
+- rowsNumber = number of lines on the file
+- fileName = csv filename
+- fixCharge = a dictionnary with key :label, values : amount
+
+Then, generate a csv file with these columns filed with random data:
+- Date (within the date range between startDate and endDate)
+- Type : "Debit"
+- Amount : random amount between -1000 and -10
+- Label : a random label from a list of 50 imaginaries companies you will invent
+
+Then, add a line for every month in the date range, one row for every element in the fixCharge Dictionnary with these columns :
+- Date : every month in the date range
+- Type : if the values is positive : "Credit", if the value is negative : "Debit"
+- amount : value in fixCharge
+- Label : key in fixCharge
+
+Finally, sort data by Date, add an ID to every rows and write the CSV.
+
+Thanks a lot !
