@@ -17,3 +17,6 @@ The file will be sorted by date, with an ID for each line.
 Don't forget to change the name of the file if you want to generate more than one.
 
 Have fun !
+
+## Please be kind
+I'm a total python beginner, so I wrote this script with my basic skills. Do not hesitate to improve or add functionalities.
